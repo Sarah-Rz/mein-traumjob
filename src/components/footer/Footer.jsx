@@ -21,7 +21,7 @@ const Footer = () => {
     </div>
 
     <div className="footer__copyright">
-      <small>&copy; 2022 All rights reserved. Sarah_RZ</small>
+      <small>&copy; 2022-2023 Alle Rechte vorbehalten. Sarah_RZ</small>
     </div>
   </footer>
 </section>  

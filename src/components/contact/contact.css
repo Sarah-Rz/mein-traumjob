@@ -25,6 +25,11 @@
     margin-bottom: 0.5rem;
     color: var(--color-bg);
 }
+.contact__option-icon-2 {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+
+}
 
 .contact__option a {
     margin-top: 0.7rem;
@@ -44,8 +49,8 @@ input, textarea {
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
-    background: var(--color-bg);
-    border: 2px solid var(--color-primary-variant);
+    background: var(--color-primary-variant);
+    border: 2px solid var(--color-bg);
     resize: none;
     font-size: 0.9rem;
 }

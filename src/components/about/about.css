@@ -35,7 +35,11 @@
 }
 
 .about__card {
-    background: var(--color-bg);
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    
+
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -44,23 +48,24 @@
 }
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--color-lighter);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
 .about__card h5 {
     font-size: 0.95rem;
+    color: var(--color-light);
 }
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-dark);
+    color: var(--color-lighter);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 .about__story {

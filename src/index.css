@@ -12,12 +12,12 @@
 
 :root { 
     --color-white: #f3f2ec;
-    --color-bg: #ffd54f ;
-    --color-primary: #1d274f;
-    --color-primary-variant: rgb(49, 49, 75);
-    --color-dark: rgb(66, 68, 68);
-    --color-light: #165e3a;
-    --color-lighter: #84bd9b;
+    --color-bg: #ccaef1 ;
+    --color-primary: #8981b0;
+    --color-primary-variant: rgb(36, 36, 65);
+    --color-dark: rgb(55, 53, 56);
+    --color-light: #a08fbc;
+    --color-lighter: #f2f5f3;
 
     --transition: all 400ms ease;
 
@@ -68,7 +68,10 @@ section > h2 {
 }
 
 .text-light {
-    color: var(--color-lighter);
+    color: var(--color-bg);
+}
+.text-lighter {
+    color: var(--color-lighter)
 }
 
 .text-primary {

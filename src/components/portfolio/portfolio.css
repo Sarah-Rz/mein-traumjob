@@ -5,7 +5,9 @@
 }
 
 .portfolio__item {
-    background: var(--color-bg);
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
     padding: 1.2rem;
     border-radius: 1.5rem;
     border: 1px solid transparent;
@@ -19,10 +21,12 @@
 
 .portfolio__item h3 {
     margin: 0.75rem 0 0.5rem;
+    color: var(--color-lighter);
 }
 
 .portfolio__item h5 {
     margin: 0 0 1rem;
+    color: var(--color-lighter);
 }
 
 .portfolio__item-cta {

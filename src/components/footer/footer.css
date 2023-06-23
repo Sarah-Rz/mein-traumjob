@@ -1,5 +1,7 @@
 footer {
-    background: var(--color-primary);
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
     padding: 3rem 0;
     text-align: center;
     margin-top: 7rem;
