@@ -1,3 +1,7 @@
+#contact {
+    background-color: var(--color-bg);
+    padding: 3rem 0;
+}
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -12,7 +16,7 @@
 }
 
 .contact__option {
-    background: var(--color-white);
+    background: var(--color-h3);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -49,7 +53,7 @@ input, textarea {
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
-    background: var(--color-primary-variant);
+    background: var(--color-white);
     border: 2px solid var(--color-bg);
     resize: none;
     font-size: 0.9rem;

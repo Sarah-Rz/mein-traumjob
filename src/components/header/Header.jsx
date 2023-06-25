@@ -1,7 +1,7 @@
-import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import {IoIosBicycle} from 'react-icons/io'
+import React from 'react';
+import './header.css';
+import CTA from './CTA';
+import {IoIosBicycle} from 'react-icons/io';
 
 const Header = () => {
   return (

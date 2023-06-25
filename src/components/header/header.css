@@ -1,34 +1,39 @@
 header {
-    height: 60vh;
+    height: 65vh;
     width: 100%;
-    padding-top: 4rem;
+    padding-top: 3rem;
     overflow: hidden;
-    background: #0f0c29;  
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
-    
-
-
+    background-image: url(../../assets/wall.jpg);
+    background-size: cover;
 }
 
 .header__container {
     text-align: center;
     height: 100%;
     position: relative;
-    color: var(--color-bg);
 }
 
 .header__container > h1 {
-    color: var(--color-bg);
+    color: var(--color-h1);
     font-family: 'Poor Story', cursive;
     padding-bottom: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     font-size: 3.5rem;;
 
 }
 
+.header__container > p {
+    font-family: 'Poor Story', cursive;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
 .header__container > h2,h3 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Poor Story', cursive;
+    color: var(--color-h2);
+    font-size: 1.8rem;
+
 }
 
 /* ==================== CTA ==================== */
@@ -74,7 +79,10 @@ header {
 }
 
 .text-sub {
-    color: var(--color-white);
+    color: var(--color-dark);
+}
+.text-sub-1 {
+    color: var(--color-light);
 }
 
 /* ===================  (MEDIUM DEVICES) ======================== */
@@ -90,7 +98,7 @@ header {
 /* ===================  (SMALL DEVICES) ======================== */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 150vh;
     }
 
     .header__socials,

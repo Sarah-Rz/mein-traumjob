@@ -4,6 +4,8 @@ import Me from "../../assets/Me.jpg";
 import { FaAward } from "react-icons/fa";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { AiOutlineLaptop } from "react-icons/ai";
+import {IoIosBicycle} from 'react-icons/io';
+
 
 const About = () => {
   return (
@@ -46,8 +48,8 @@ const About = () => {
           Im Januar 2022 habe ich zuerst mit Scrimba und dann mit FreeCodeCamp (interaktive Lern-Web-Plattform) angefangen zu programmieren. 
           Ich habe einen langen Weg zurückgelegt, um endlich meinen Traumjob zu finden.
           Hier ist meine Geschichte, wie ich eine Entwicklerin wurde!
-              <br />
             </p>
+            <h2>- - - - - - - - - - - - - - - - - - - - - -<IoIosBicycle/> - - - - - - - - - - - - - - </h2>
           </div>
         </div>
       </div>
