@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import Me3 from "../../assets/Me3.jpg";
 import {IoIosBicycle} from 'react-icons/io'
 
 const Header = () => {
@@ -13,9 +12,6 @@ const Header = () => {
         <p className="text-sub">Mein Motto ist: Übung macht den Meister. und alles ist möglich, wenn man es nur will.</p>
        <br />
         <h3 className="text-light">Ich bin Sara</h3>
-        <div className="header-img-small">
-          <img src={Me3} alt="" />
-        </div>
         <h2 className="text-primary">Web Entwicklerin</h2>
         <CTA />
       </div>

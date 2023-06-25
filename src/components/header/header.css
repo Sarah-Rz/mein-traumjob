@@ -73,28 +73,18 @@ header {
 
 }
 
-.header-img-small {
-    width: 3rem;
-    height: 3rem;
-    position: absolute;
-    right: 30rem;
-    top: 12.5rem;
-   
-}
-.header-img-small > img {
-    border-radius: 50%;
-    border: 3px solid var(--color-bg);
-    
-}
 .text-sub {
     color: var(--color-white);
 }
 
 /* ===================  (MEDIUM DEVICES) ======================== */
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1590px) {
     header {
         height: 68vh;
     }
+  
+   
 }
 
 /* ===================  (SMALL DEVICES) ======================== */
@@ -108,11 +98,6 @@ header {
         display: none;
 
     } 
-    .header-img-small {
-        right: 3.5rem;
-        top: 35.5rem;
-       
-    }
-
+    
 }
 
