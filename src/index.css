@@ -15,8 +15,8 @@
     --color-bg: #ffd54f ;
     --color-primary: #1d274f;
     --color-primary-variant: rgb(49, 49, 75);
-    --color-dark: rgb(66, 68, 68);
-    --color-light: #00838f;
+    --color-dark: rgb(33, 34, 34);
+    --color-light: #07585f;
     --transition: all 400ms ease;
 
     --conatainer-width-lg: 75%;
@@ -50,7 +50,7 @@ h1 {
     font-size: 2.5rem;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 h3 {
     font-size: 1.5rem;
