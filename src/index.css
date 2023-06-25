@@ -11,12 +11,15 @@
 }
 
 :root { 
-    --color-white: #f3f2ec;
-    --color-bg: #ffd54f ;
-    --color-primary: #1d274f;
-    --color-primary-variant: rgb(49, 49, 75);
-    --color-dark: rgb(33, 34, 34);
-    --color-light: #07585f;
+    --color-h1: rgb(105, 42, 42);
+    --color-h2: #1d3e28;
+    --color-h3: rgb(204, 195, 173);
+    --color-white: #283831;
+    --color-bg: #efecdf ;
+    --color-primary: #893e33;
+    --color-primary-variant: rgb(61, 74, 72);
+    --color-dark: rgb(24, 27, 27);
+    --color-light: #f3f7f6;
     --transition: all 400ms ease;
 
     --conatainer-width-lg: 75%;
@@ -26,7 +29,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-white);
     color: var(--color-dark);
     line-height: 1.7;
 }
@@ -56,13 +58,13 @@ h3 {
     font-size: 1.5rem;
 }
 section {
-    margin-top: 8rem;
+    margin: 0;
 }
 
 section > h2,
 section > h5 {
     text-align: center;
-    color: var(--color-ligth);
+    color: var(--color-bg);
 }
 
 
@@ -72,14 +74,15 @@ section > h2 {
 }
 
 .text-light {
-    color: var(--color-bg);
+    color: var(--color-h1);
+    font-weight: bold;
 }
 .text-lighter {
     color: var(--color-lighter)
 }
 
 .text-primary {
-    color: var(--color-white);
+    color: var(--color-h2);
     font-weight: bold;
 }
 
@@ -89,7 +92,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-bg);
+    color: var(--color-h1);
 }
 
 .btn {
@@ -104,20 +107,20 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: var(--color-bg);
     color: var(--color-primary);
     border-color: var(--color-primary);
 }
 
 .btn-primary {
     background: var(--color-primary);
-    color: var(--color-white);
+    color: var(--color-bg);
 }
 
 .btn-header {
     background: var(--color-primary);
-    color: var(--color-white);
-    border-color: var(--color-white);
+    color: var(--color-bg);
+    border-color: var(--color-bg);
 }
 .btn-primary-header {
     background: var(--color-bg);
@@ -127,8 +130,8 @@ a:hover {
 
 .btn-primary-header:hover {
     background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    color: var(--color-h1);
+    border-color: var(--color-h1);
 }
 
 img {
