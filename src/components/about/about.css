@@ -35,10 +35,7 @@
 }
 
 .about__card {
-    background: #0f0c29;  
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
-    
+   background: var(--color-bg);
 
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -70,16 +67,18 @@
 
 .about__story {
     font-family: 'Poor Story', cursive;
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     text-align: justify;
+    font-weight: bold;
 }
 
 .about__story-part-2 {
     font-family: 'Poor Story', cursive;
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     width: 70%;
     margin: 20px auto;
     text-align: justify;
+    font-weight: bold;
     color: var(--color-dark);
 }
 

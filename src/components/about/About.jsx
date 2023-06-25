@@ -42,7 +42,7 @@ const About = () => {
           </div>
           <div className="about__story">
           <p>
-          Hallo, mein Name ist Sara. Ich interessire mich für Frontend Web Entwicklung. 
+          Hallo, mein Name ist Sara. Ich interessiere mich für Web Entwicklung. 
           Im Januar 2022 habe ich zuerst mit Scrimba und dann mit FreeCodeCamp (interaktive Lern-Web-Plattform) angefangen zu programmieren. 
           Ich habe einen langen Weg zurückgelegt, um endlich meinen Traumjob zu finden.
           Hier ist meine Geschichte, wie ich eine Entwicklerin wurde!

@@ -6,6 +6,8 @@ header {
     background: #0f0c29;  
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    
+
 
 }
 
@@ -28,7 +30,6 @@ header {
 .header__container > h2,h3 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 /* ==================== CTA ==================== */
 .cta {
@@ -71,16 +72,22 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem; */
 
 }
-.header-img {
-    width: 5rem;
-    height: 5rem;
+
+.header-img-small {
+    width: 3rem;
+    height: 3rem;
     position: absolute;
-    border-radius: 50%;
-    right: -9rem;
-    top: -2rem;
+    right: 30rem;
+    top: 12.5rem;
+   
 }
-.header-img > img {
+.header-img-small > img {
     border-radius: 50%;
+    border: 3px solid var(--color-bg);
+    
+}
+.text-sub {
+    color: var(--color-white);
 }
 
 /* ===================  (MEDIUM DEVICES) ======================== */
@@ -101,13 +108,10 @@ header {
         display: none;
 
     } 
-    .header-img {
-        width: 5rem;
-        height: 5rem;
-        position: absolute;
-        border-radius: 50%;
-        right: -0.5rem;
-        top: -3rem;
+    .header-img-small {
+        right: 3.5rem;
+        top: 35.5rem;
+       
     }
 
 }
