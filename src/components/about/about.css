@@ -89,6 +89,17 @@
     color: var(--color-bg);
 }
 
+.right-img {
+    width: 5rem;
+    height: 10rem;
+    float: right;
+}
+.left-img {
+    width: 5rem;
+    height: 10rem;
+    float: left;
+}
+
 /* ===================  (MEDIUM DEVICES) ======================== */
 @media screen and (max-width: 1024px) {
    .about__container {
