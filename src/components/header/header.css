@@ -55,7 +55,7 @@ header {
     color: var(--color-dark);
 }
 .text-sub-1 {
-    color: var(--color-light);
+    color: var(--color-h1);
 }
 
 /* ===================  (MEDIUM DEVICES) ======================== */
@@ -71,7 +71,7 @@ header {
 /* ===================  (SMALL DEVICES) ======================== */
 @media screen and (max-width: 600px) {
     header {
-        height: 200vh;
+        height: 250vh;
     }
 
     .header__socials,

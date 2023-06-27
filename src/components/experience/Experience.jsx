@@ -11,6 +11,7 @@ import {SiRedux} from "react-icons/si";
 import {FaGitAlt} from "react-icons/fa";
 import {DiMaterializecss} from "react-icons/di";
 import {IoLogoNodejs} from "react-icons/io";
+import {SiJinja} from "react-icons/si";
 
 
 
@@ -57,8 +58,11 @@ const Experience = () => {
               </small>
             </article>
             <article className="experience__details">
-              <IoLogoNodejs className="experience__details-icon" />
-              <h4>Node.js</h4>
+              <SiJinja className="experience__details-icon" />
+              <h4>Jinja</h4>
+              <small className="text-light">
+              Web Template Engine für die Programmiersprache Python              
+              </small>
             </article>
             <article className="experience__details">
               <DiJqueryLogo className="experience__details-icon" />
@@ -106,6 +110,7 @@ const Experience = () => {
               <FaGitAlt className="experience__details-icon" />
               <h4>Git</h4>
             </article>
+           
           </div>
         </div>
       </div>

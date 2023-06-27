@@ -7,7 +7,6 @@ import m6 from "../../assets/m6.png";
 import m7 from "../../assets/m7.png";
 import m8 from "../../assets/m8.png";
 import m9 from "../../assets/m9.png";
-import { FaAward } from "react-icons/fa";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { AiOutlineLaptop } from "react-icons/ai";
 import {IoIosBicycle} from 'react-icons/io';
@@ -16,8 +15,7 @@ import {IoIosBicycle} from 'react-icons/io';
 const About = () => {
   return (
     <section id="about">
-      <h5>Erfahren Sie mehr</h5>
-      <h2>Über mich</h2>
+      <h2 className="h2-title-light">Meine Geschichte</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -56,6 +54,7 @@ const About = () => {
           Hier ist meine Geschichte, wie ich eine Entwicklerin wurde!
             </p>
             <h2>- - - - - - - - - - - - - - - - - - - - - -<IoIosBicycle/> - - - - - - - - - - - - - - </h2>
+            <br />
           </div>
         </div>
       </div>

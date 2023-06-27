@@ -2,8 +2,6 @@ import React from 'react';
 import './contact.css';
 import {FiMail} from 'react-icons/fi';
 import {BsWhatsapp} from 'react-icons/bs';
-import {BsEmojiSunglasses} from 'react-icons/bs';
-import {FaAngellist} from 'react-icons/fa';
 import { useRef as UseRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -20,7 +18,7 @@ const contact = () => {
 
   return (
     <section id="contact">
-      <h2>Melde dich gerne bei mir!<FaAngellist/><BsEmojiSunglasses className='contact__option-icon-2'/></h2>
+      <h2>Melde dich gerne bei mir!</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
