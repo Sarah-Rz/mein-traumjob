@@ -8,6 +8,7 @@ import m7 from "../../assets/m7.png";
 import m8 from "../../assets/m8.png";
 import m9 from "../../assets/m9.png";
 import m10 from "../../assets/m10.png";
+import m11 from "../../assets/m11.png";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { AiOutlineLaptop } from "react-icons/ai";
 import {IoIosBicycle} from 'react-icons/io';
@@ -62,17 +63,26 @@ const About = () => {
       <div className="about__story-part-2">    
         <p>
         <div className="right-img">
-          <img src={m4} alt="" />
+          <img src={m11} alt="" />
         </div>
-        Zunächst habe ich an der medizinischen Universität Genetik studiert. 
-        Als Kind war ich immer neugierig auf Details und darauf, wie winzig kleine Dinge große Auswirkungen haben können. 
+        Zunächst sollte ich sagen, dass ich an der Universität Genetik studiert habe. 
+        Aber wie ich zum Programmieren gekommen bin, ist eine lange Geschichte! Sind Sie bereit, 
+        mehr über meine Expedition zu erfahren? dann los!...
+        <br />
+        Als Kind war ich immer neugierig auf Details und darauf, wie winzig kleine Dinge große 
+        Auswirkungen haben können. 
         Ich dachte, die Genetik sei ein Gebiet, auf dem ich außerordentliche Dinge tun könnte.</p>
         <br />
         <div className="left-img">
           <img src={m5} alt="" />
         </div>
         <p>
-        Aber ich habe mich geirrt. Meine Vorstellungen von der Genetik waren ganz anders als das, was an der Universität gelehrt wurde.
+        Aber ich habe mich geirrt. Meine Vorstellungen von der Genetik waren ganz anders als das, 
+        was an der Universität gelehrt wurde. Die Genetik hat zahlreiche Grenzen.
+        man kann nicht alles machen, was man will. und es geht mehr um die Forschung, nicht um die 
+        Herstellung oder etwas Kreatives. Ich liebe es zwar, zu forschen und in verschiedenen Büchern oder
+        im Internet nach einer Antwort zu suchen, aber ich möchte am Ende des Tages auch die Ergebnisse 
+        meiner Arbeit sehen. bei der Genetik war das nicht so möglich.
         </p> 
         <br />
         <div className="right-img">
