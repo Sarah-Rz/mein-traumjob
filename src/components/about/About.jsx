@@ -7,6 +7,7 @@ import m6 from "../../assets/m6.png";
 import m7 from "../../assets/m7.png";
 import m8 from "../../assets/m8.png";
 import m9 from "../../assets/m9.png";
+import m10 from "../../assets/m10.png";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { AiOutlineLaptop } from "react-icons/ai";
 import {IoIosBicycle} from 'react-icons/io';
@@ -95,21 +96,62 @@ const About = () => {
         Danach habe ich Frontend Kurse bei Free Code Camp belegt und einige Projekte mit JS Frameworks wie React und modernen responsiven CSS Frameworks wie Materialize, Bootstrap und Chakra UI erstellt.
         </p>
         <br />
-        <div className="right-img">
-          <img src={m8} alt="" />
-        </div>
+      
         <p>
         Nach 11 Monaten konnte ich meine erste Stelle als Praktikantin für Frontend Entwicklung bei einer digital-Marketing-Firma antreten!
         Wir waren einen Startup-Team von 12 Personen, darunter Grafikdesigner, Softwareexperten, UI/UX-Designer, Backend- und Frontend-Programmierer, die nach der Scrum- Methode arbeiteten.
-        Zu meinen Aufgaben gehörte es:
         </p>
         <br />
         <p>
+        Zu meinen Aufgaben gehören:  
         Dynamisierung der Webseite (für die Klinik) mit Jinja (Logik), erstellt die Seite (Register/Login, Blogs, Profile, 
         Onlinereservierung, Galerie,...), lösung der Probleme, Arbeit mit CSS, Bootstrap, Fancybox,..., Anwendung von Lozad und SEO, Arbeit mit API, WinSCP, wenige Erfahrung mit Javascript für einige Teil, uzw.
         Und jetzt will ich eine Ausbildung als Anwendungsentwicklerin in Deutschland machen!</p>
         <p>
+        <ul> 
+          <li>Hier erkläre ich einige Ausdrücke meiner Aufgaben:</li>
+          <li><b>- Dynamisierung von Websites:</b> Das Unternehmen, für das ich gearbeitet habe, 
+            war eine Agentur für digitales Marketing, die dynamische Websites für einige Berufsgruppen 
+            (hauptsächlich Ärzte, Apotheken, Online-Shopping usw.) erstellt hat.  
+            Damit die Kunden diese Website für sich selbst kaufen und dann ihre eigenen Produkte, 
+            Inhalte,... ganz einfach hinzufügen können. Das ganze Projekt wurde mit Angular, Jinja, JavaScript 
+            und so weiter umgesetzt.
+            <br />
+            Und meine Rolle in diesem Teil war: Dynamisierung von Header (Navbar, Logo), 
+            Footer (Adresse, Handy/Telefon, Schnellzugriff), Artikelteil, Tab/Login-Seite, Contact-us, 
+            About-us, usw. mit Jinja.
+          </li>
+          <div className="right-img">
+          <img src={m8} alt="" />
+          </div>
+          <li>
+          <b>- Scrum-Methode:</b> Jeden Tag wurden jeder Person Aufgaben zugeteilt, die zu einer bestimmten Zeit 
+          erledigt werden mussten. Zuerst habe ich meine Aufgaben organisiert und nach Priorität erledigt.
+          </li>
+          <li>
+          <b>Erfahrung mit JavaScript bei der Arbeit:</b> Ich habe einen Code für die Suchleiste geschrieben, 
+          einen Code für das Datum der Artikel-Seite.
+          </li>
+          <li>
+          <div className="right-img">
+          <img src={m10} alt="" />
+          </div>
+          <b>Lösen der Probleme:</b> Manchmal funktioniert ein Code oder ein Stil nicht. 
+          Das ist beim Programmieren ganz normal. Zuerst habe ich lange überlegt, warum ich diese Fehler bekomme 
+          oder warum mein Code nicht funktioniert. Manchmal konnte ich das Problem selbst lösen. Wenn ich keine 
+          Antwort bekommen habe, habe ich entweder Stack Overflow benutzt (meistens konnte ich dort die richtige
+           Antwort finden) oder ich habe das Team gefragt und sie haben mir den Hinweis gegeben.
+          </li>
+        </ul>
           <br />
+          <p>
+          Alles in allem kann ich sagen, dass dieser Job nicht so einfach ist. 
+          Es gibt immer Probleme zu lösen oder Herausforderungen. Aber das ist es, was mir Spaß macht. 
+          Wenn ich ein Problem lösen kann, bin ich stolz auf mich, dass ich nicht aufgegeben habe. 
+          Programmieren macht mich zu einem stärkeren Menschen. 
+          Das ist erst der Anfang meiner Reise. In diesem Bereich gibt es für mich noch viel zu lernen.
+          Ich kann nicht länger auf die Ausbildung in Deutschland warten.
+          </p>
         <div className="left-img">
           <img src={m9} alt="" />
         </div>
