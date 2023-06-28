@@ -37,11 +37,8 @@ nav a.active {
     nav a {
         font-size: 0.6rem;
     }
-    nav {
-        width: max-content;
-        display: block;
-        padding: 0.7rem 2.5rem;
-        display: flex;
+    nav { 
+        padding: 0.5rem 0.5rem;
         gap: 0.3rem;
     }
  }
