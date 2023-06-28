@@ -74,6 +74,11 @@
         width: 100%;
         padding: 2rem 1rem;
     }
+    .experience__content-frontend {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
  
 }
 

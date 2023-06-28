@@ -65,7 +65,7 @@ header {
 /* ===================  (SMALL DEVICES) ======================== */
 @media screen and (max-width: 600px) {
     header {
-        height: 250vh;
+        height: 220vh;
     }
 
     .header__socials,
