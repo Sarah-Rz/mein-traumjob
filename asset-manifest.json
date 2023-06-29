@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mein-traumjob/static/css/main.afb9492d.css",
-    "main.js": "/mein-traumjob/static/js/main.97b21a33.js",
+    "main.js": "/mein-traumjob/static/js/main.e9a6788f.js",
     "static/media/wall.jpg": "/mein-traumjob/static/media/wall.be256f6a0f8a33e020f3.jpg",
     "static/media/portfolio-1.jpg": "/mein-traumjob/static/media/portfolio-1.a6a57c7f5f15c61088d8.jpg",
     "static/media/portfolio-10.jpg": "/mein-traumjob/static/media/portfolio-10.d3d637d392309d6b166b.jpg",
@@ -11,6 +11,7 @@
     "static/media/portfolio-2.jpg": "/mein-traumjob/static/media/portfolio-2.5571c60cdbc922af810e.jpg",
     "static/media/portfolio-9.jpg": "/mein-traumjob/static/media/portfolio-9.ecda36de5c8bdf2b6be7.jpg",
     "static/media/portfolio-4.jpg": "/mein-traumjob/static/media/portfolio-4.5d19257b040b31dd99f6.jpg",
+    "static/media/m12.png": "/mein-traumjob/static/media/m12.96bcfa408d9756820db8.png",
     "static/media/portfolio-8.jpg": "/mein-traumjob/static/media/portfolio-8.7c2ff7c1e96b1db97f63.jpg",
     "static/media/portfolio-3.jpg": "/mein-traumjob/static/media/portfolio-3.a939915a08d02104bc46.jpg",
     "static/media/Me.jpg": "/mein-traumjob/static/media/Me.d6f64f41120fd9fd8b71.jpg",
@@ -26,10 +27,10 @@
     "static/media/m5.png": "/mein-traumjob/static/media/m5.6bd299f8177ebc12a956.png",
     "index.html": "/mein-traumjob/index.html",
     "main.afb9492d.css.map": "/mein-traumjob/static/css/main.afb9492d.css.map",
-    "main.97b21a33.js.map": "/mein-traumjob/static/js/main.97b21a33.js.map"
+    "main.e9a6788f.js.map": "/mein-traumjob/static/js/main.e9a6788f.js.map"
   },
   "entrypoints": [
     "static/css/main.afb9492d.css",
-    "static/js/main.97b21a33.js"
+    "static/js/main.e9a6788f.js"
   ]
 }
