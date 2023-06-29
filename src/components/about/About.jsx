@@ -9,6 +9,8 @@ import m8 from "../../assets/m8.png";
 import m9 from "../../assets/m9.png";
 import m10 from "../../assets/m10.png";
 import m11 from "../../assets/m11.png";
+import m12 from "../../assets/m12.png";
+import m13 from "../../assets/m13.png";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { AiOutlineLaptop } from "react-icons/ai";
 import {IoIosBicycle} from 'react-icons/io';
@@ -51,7 +53,8 @@ const About = () => {
           <div className="about__story">
           <p>
           Hallo, mein Name ist Sara. Ich interessiere mich für Web Entwicklung. 
-          Im Januar 2022 habe ich zuerst mit Scrimba und dann mit FreeCodeCamp (interaktive Lern-Web-Plattform) angefangen zu programmieren. 
+          Im Januar 2022 habe ich zuerst mit Scrimba und dann mit FreeCodeCamp 
+          (interaktive Lern-Web-Plattform) angefangen zu programmieren. 
           Ich habe einen langen Weg zurückgelegt, um endlich meinen Traumjob zu finden.
           Hier ist meine Geschichte, wie ich eine Entwicklerin wurde!
             </p>
@@ -86,17 +89,29 @@ const About = () => {
         </p> 
         <br />
         <div className="right-img">
-          <img src={m6} alt="" />
+          <img src={m12} alt="" />
         </div>
         <p>
-        Nach meinem Abschluss begann ich, eine neue Sprache zu lernen. Deutsch.
-        Da ich mich für diese Sprache interessierte, beschloss ich, als deutsche Übersetzerin in einer Firma zu arbeiten. 
-        Dort habe ich rund um die Uhr an Computer gearbeitet und es hat mir Spaß gemacht. 
-        Der Mangel an Herausforderungen war für mich jedoch lästig. 
+        Während meines Bachelorstudiums habe ich angefangen, eine neue Sprache zu lernen. <b>Deutsch. </b>
+         Nach etwa 9 Monaten war ich in der Lage, die Sprache auf B1-Niveau zu beherrschen. 
+        Da ich mich für diese Sprache interessierte und um mein Deutsch zu verbessern, 
+        beschloss ich, für kurze Zeit als Praktikantin in einem Übersetzungsbüro zu arbeiten. 
+        Ich liebte diesen Job. Jeden Tag hatte ich mit dem Computer und Word Microsoft Office zu tun, 
+        übersetzte offizielle Dokumente und lernte viele neue Dinge.
+        </p>
+        <div className="left-img">
+          <img src={m13} alt="" />
+        </div>
+        <p>
+        Allerdings hat mich der Mangel an Herausforderungen gestört. 
+        </p>
+        <br />
+        <p>
         Zu dieser Zeit hatte ich eine Mitbewohnerin, die im Bereich SEO arbeitete. 
         Sie redete immer begeistert von ihrem Beruf, ihren Projekten und dem tollen Team, mit dem sie arbeitete. 
-        <br />Klingt toll, oder? <br />Das war der Wendepunkt in meinem Leben.</p>
-        <div className="left-img">
+        <br />Klingt toll, oder? <br />Das war der Wendepunkt in meinem Leben.
+        </p>
+        <div className="right-img">
           <img src={m7} alt="" />
         </div>
         <p>
@@ -106,7 +121,6 @@ const About = () => {
         Danach habe ich Frontend Kurse bei Free Code Camp belegt und einige Projekte mit JS Frameworks wie React und modernen responsiven CSS Frameworks wie Materialize, Bootstrap und Chakra UI erstellt.
         </p>
         <br />
-      
         <p>
         Nach 11 Monaten konnte ich meine erste Stelle als Praktikantin für Frontend Entwicklung bei einer digital-Marketing-Firma antreten!
         Wir waren einen Startup-Team von 12 Personen, darunter Grafikdesigner, Softwareexperten, UI/UX-Designer, Backend- und Frontend-Programmierer, die nach der Scrum- Methode arbeiteten.
