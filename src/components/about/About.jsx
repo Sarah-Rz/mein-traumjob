@@ -11,8 +11,6 @@ import m10 from "../../assets/m10.png";
 import m11 from "../../assets/m11.png";
 import m12 from "../../assets/m12.png";
 import m13 from "../../assets/m13.png";
-import { AiFillFolderOpen } from "react-icons/ai";
-import { AiOutlineLaptop } from "react-icons/ai";
 import {IoIosBicycle} from 'react-icons/io';
 
 
@@ -30,33 +28,45 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <AiOutlineLaptop className="about__icon" />
-              <h5>Erfahrung</h5>
-              <small>HTML | CSS | Responsive Web-design: Bootstrap, Materialize, Chakra UI | JS ES6 | React | Jinja | Arbeit mit API & Server</small>
-            </article>
-
-            <article className="about__card">
-              <AiFillFolderOpen className="about__icon" />
-              <h5>Projekte</h5>
-              <small>Selbstprojekte: 
-                <br />
-                Portfolio Website | E-commerce App
+              <h5>Erfahrungen</h5>
+              <small>
+              <b>Selbstprojekte:</b>
+              <br />
+                HTML | CSS | Responsive Web-design | Bootstrap | Materialize | Chakra UI | Javascript ES6 | React 
               </small>
               <br />
               <small>
-                Firmenprojekte: 
+              <b>Firmenprojekte:</b>
+              <br />
+                Jinja | Responsive Web-design | HTML | CSS | Bootstrap | Javascript ES6 | Scrum-Methode 
+              </small>
+            </article>
+
+            <article className="about__card">
+              <h5>Projekte</h5>
+              <small>
+                <b>Selbstprojekte:</b>
                 <br />
-                Klinik Website
+                Meine eigene Website | Random Quote Machine | 25 + 5 Clock | Markdown Previewer | 
+                To DO List | Music Player | JS Documentation | Product Landing Page | Survey Form | 
+                Blackjack Game | WebTracker | Calculator
+              </small>
+              <br />
+              <small>
+                <b>Firmenprojekte:</b>
+                <br />
+                Online-Shop | Online-Website für 
+                Arzttermine
               </small>
             </article>
           </div>
           <div className="about__story">
           <p>
-          Hallo, mein Name ist Sara. Ich interessiere mich für Web Entwicklung. 
+          Hallo, mein Name ist Sara. Ich interessiere mich für programmieren. 
           Im Januar 2022 habe ich zuerst mit Scrimba und dann mit FreeCodeCamp 
           (interaktive Lern-Web-Plattform) angefangen zu programmieren. 
           Ich habe einen langen Weg zurückgelegt, um endlich meinen Traumjob zu finden.
-          Hier ist meine Geschichte, wie ich eine Entwicklerin wurde!
+          Hier ist meine Geschichte, wie ich eine Programmiererin wurde!
             </p>
             <h2>- - - - - - - - - - - - - - - - - - - - - -<IoIosBicycle/> - - - - - - - - - - - - - - </h2>
             <br />
@@ -68,7 +78,7 @@ const About = () => {
         <div className="right-img">
           <img src={m11} alt="" />
         </div>
-        Zunächst sollte ich sagen, dass ich an der Universität Genetik studiert habe. 
+        Zunächst einmal sollte ich sagen, dass ich an der Uni Genetik studiert habe. 
         Aber wie ich zum Programmieren gekommen bin, ist eine lange Geschichte! Sind Sie bereit, 
         mehr über meine Expedition zu erfahren? dann los!...
         <br />
@@ -97,7 +107,7 @@ const About = () => {
         Da ich mich für diese Sprache interessierte und um mein Deutsch zu verbessern, 
         beschloss ich, für kurze Zeit als Praktikantin in einem Übersetzungsbüro zu arbeiten. 
         Ich liebte diesen Job. Jeden Tag hatte ich mit dem Computer und Word Microsoft Office zu tun, 
-        übersetzte offizielle Dokumente und lernte viele neue Dinge.
+        übersetzte offizielle Dokumente und lernte viele neue Dinge. 
         </p>
         <div className="left-img">
           <img src={m13} alt="" />
@@ -109,11 +119,14 @@ const About = () => {
         <p>
         Zu dieser Zeit hatte ich eine Mitbewohnerin, die im Bereich SEO arbeitete. 
         Sie redete immer begeistert von ihrem Beruf, ihren Projekten und dem tollen Team, mit dem sie arbeitete. 
-        <br />Klingt toll, oder? <br />Das war der Wendepunkt in meinem Leben.
+        <br />
         </p>
         <div className="right-img">
-          <img src={m7} alt="" />
+          <img src={m6} alt="" />
         </div>
+        <p>
+        Klingt toll, oder? <br />Das war der Wendepunkt in meinem Leben.
+        </p>
         <p>
         Ich begann, nach allen möglichen IT-Jobs zu suchen, und schließlich fand ich es. 
         Als ich meinen ersten Code "Hello World" schrieb, öffnete sich eine neue Welt für mich!
@@ -121,14 +134,18 @@ const About = () => {
         Danach habe ich Frontend Kurse bei Free Code Camp belegt und einige Projekte mit JS Frameworks wie React und modernen responsiven CSS Frameworks wie Materialize, Bootstrap und Chakra UI erstellt.
         </p>
         <br />
+        <div className="left-img">
+          <img src={m7} alt="" />
+        </div>
         <p>
-        Nach 11 Monaten konnte ich meine erste Stelle als Praktikantin für Frontend Entwicklung bei einer digital-Marketing-Firma antreten!
+        Nach 11 Monaten konnte ich meine erste Stelle als Praktikantin für Frontend Entwicklung bei einer Digital Marketing Agentur antreten!
         Wir waren einen Startup-Team von 12 Personen, darunter Grafikdesigner, Softwareexperten, UI/UX-Designer, Backend- und Frontend-Programmierer, die nach der Scrum- Methode arbeiteten.
         </p>
         <br />
         <p>
         Zu meinen Aufgaben gehören:  
-        Dynamisierung der Webseite (für die Klinik) mit Jinja (Logik), erstellt die Seite (Register/Login, Blogs, Profile, 
+        Dynamisierung der Webseite (Online-Shop & Online-Website für 
+                Arzttermine) mit Jinja, erstellt die Seite (Register/Login, Blogs, Profile, 
         Onlinereservierung, Galerie,...), lösung der Probleme, Arbeit mit CSS, Bootstrap, Fancybox,..., Anwendung von Lozad und SEO, Arbeit mit API, WinSCP, wenige Erfahrung mit Javascript für einige Teil, uzw.
         Und jetzt will ich eine Ausbildung als Anwendungsentwicklerin in Deutschland machen!</p>
         <p>
