@@ -64,7 +64,7 @@ header {
 /* ===================  (SMALL DEVICES) ======================== */
 @media screen and (max-width: 600px) {
     header {
-        height: 210vh;
+        height: 170vh;
     }
     .header__container > h1 {
         font-size: 2.15rem;
