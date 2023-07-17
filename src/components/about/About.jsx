@@ -32,13 +32,13 @@ const About = () => {
               <small>
               <b>Selbstprojekte:</b>
               <br />
-                HTML | CSS | Responsive Web-design | Bootstrap | Materialize | Chakra UI | Javascript ES6 | React 
+               Responsive Web-design | Bootstrap | Materialize | Chakra UI | Javascript ES6 | React 
               </small>
               <br />
               <small>
               <b>Firmenprojekte:</b>
               <br />
-                Jinja | Responsive Web-design | HTML | CSS | Bootstrap | Javascript ES6 | Scrum-Methode 
+                Jinja | Responsive Web-design | Bootstrap | Javascript ES6 | Scrum-Methode 
               </small>
             </article>
 
@@ -47,9 +47,9 @@ const About = () => {
               <small>
                 <b>Selbstprojekte:</b>
                 <br />
-                Meine eigene Website | Random Quote Machine | 25 + 5 Clock | Markdown Previewer | 
-                To DO List | Music Player | JS Documentation | Product Landing Page | Survey Form | 
-                Blackjack Game | WebTracker | Calculator
+                Meine eigene Website | Random Quote Machine | Music Player
+                To DO List | Product Landing Page |
+                Blackjack Game| Calculator ...
               </small>
               <br />
               <small>
