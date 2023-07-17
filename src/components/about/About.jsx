@@ -147,7 +147,7 @@ const About = () => {
         Dynamisierung der Webseite (Online-Shop & Online-Website für 
                 Arzttermine) mit Jinja, erstellt die Seite (Register/Login, Blogs, Profile, 
         Onlinereservierung, Galerie,...), lösung der Probleme, Arbeit mit CSS, Bootstrap, Fancybox,..., Anwendung von Lozad und SEO, Arbeit mit API, WinSCP, wenige Erfahrung mit Javascript für einige Teil, uzw.
-        Und jetzt will ich eine Ausbildung als Anwendungsentwicklerin in Deutschland machen!</p>
+       </p>
         <p>
         <ul> 
           <li>Hier erkläre ich einige Ausdrücke meiner Aufgaben:</li>
