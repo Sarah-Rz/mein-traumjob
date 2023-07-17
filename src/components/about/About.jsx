@@ -67,7 +67,7 @@ const About = () => {
           (interaktive Lern-Web-Plattform) angefangen zu programmieren. 
           Ich habe einen langen Weg zurückgelegt, um endlich meinen Traumjob zu finden.
           Hier ist meine Geschichte, wie ich eine Programmiererin wurde!
-            </p>
+          </p>
             <h2>- - - - - - - - - - - - - - - - - - - - - -<IoIosBicycle/> - - - - - - - - - - - - - - </h2>
             <br />
           </div>
@@ -185,14 +185,15 @@ const About = () => {
           </li>
         </ul>
           <br />
+          <div className="about-end">
           <p>
-          Alles in allem kann ich sagen, dass dieser Job nicht so einfach ist. 
-          Es gibt immer Probleme zu lösen oder Herausforderungen. Aber das ist es, was mir Spaß macht. 
-          Wenn ich ein Problem lösen kann, bin ich stolz auf mich, dass ich nicht aufgegeben habe. 
+          Alles in allem soll ich sagen, dass dieser Job nicht so einfach ist. 
+          Es gibt immer Probleme zu lösen oder Herausforderungen. Allerdings ist es genau das, was mir Spaß macht.          Wenn ich ein Problem lösen kann, bin ich stolz auf mich, dass ich nicht aufgegeben habe. 
           Programmieren macht mich zu einem stärkeren Menschen. 
           Das ist erst der Anfang meiner Reise. In diesem Bereich gibt es für mich noch viel zu lernen.
           Ich kann nicht länger auf die Ausbildung in Deutschland warten.
           </p>
+          </div>
         <div className="left-img">
           <img src={m9} alt="" />
         </div>

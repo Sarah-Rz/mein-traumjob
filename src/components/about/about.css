@@ -49,19 +49,13 @@
     transition: var(--transition);
 }
 
-.about__icon {
-    color: var(--color-lighter);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
 .about__card h5 {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: var(--color-h2);
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--color-lighter);
 }
 
@@ -76,20 +70,23 @@
 
 .about__story > p {
     font-family: 'Poor Story', cursive;
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     text-align: justify;
-    color: var(--color-bg);
+    color: var(--color-light);
 }
 
 .about__story-part-2 {
     font-family: 'Poor Story', cursive;
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     width: 70%;
     margin: 20px auto;
     text-align: justify;
     color: var(--color-bg);
 }
 
+.about-end > p {
+    color: var(--color-light);
+}
 .right-img {
     width: 5rem;
     height: 10rem;
