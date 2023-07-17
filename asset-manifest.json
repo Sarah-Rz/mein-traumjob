@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mein-traumjob/static/css/main.d6f8f602.css",
-    "main.js": "/mein-traumjob/static/js/main.d2b88ce0.js",
+    "main.css": "/mein-traumjob/static/css/main.5c74e336.css",
+    "main.js": "/mein-traumjob/static/js/main.6e1eecf2.js",
     "static/media/wall.jpg": "/mein-traumjob/static/media/wall.be256f6a0f8a33e020f3.jpg",
     "static/media/portfolio-1.jpg": "/mein-traumjob/static/media/portfolio-1.a6a57c7f5f15c61088d8.jpg",
     "static/media/portfolio-10.jpg": "/mein-traumjob/static/media/portfolio-10.d3d637d392309d6b166b.jpg",
@@ -26,11 +26,11 @@
     "static/media/m9.png": "/mein-traumjob/static/media/m9.a78d6aac76909f8a837b.png",
     "static/media/m5.png": "/mein-traumjob/static/media/m5.6bd299f8177ebc12a956.png",
     "index.html": "/mein-traumjob/index.html",
-    "main.d6f8f602.css.map": "/mein-traumjob/static/css/main.d6f8f602.css.map",
-    "main.d2b88ce0.js.map": "/mein-traumjob/static/js/main.d2b88ce0.js.map"
+    "main.5c74e336.css.map": "/mein-traumjob/static/css/main.5c74e336.css.map",
+    "main.6e1eecf2.js.map": "/mein-traumjob/static/js/main.6e1eecf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6f8f602.css",
-    "static/js/main.d2b88ce0.js"
+    "static/css/main.5c74e336.css",
+    "static/js/main.6e1eecf2.js"
   ]
 }
