@@ -32,7 +32,7 @@ const About = () => {
               <small>
               <b>Selbstprojekte:</b>
               <br />
-               Responsive Web-design | Bootstrap | Materialize | Chakra UI | Javascript ES6 | React 
+               Responsive Web-design | Bootstrap | Materialize | Chakra UI | Javascript ES6 | React | MongoDB
               </small>
               <br />
               <small>
