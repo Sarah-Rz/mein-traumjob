@@ -1,5 +1,5 @@
 header {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     padding-top: 1rem;
     overflow: hidden;
@@ -52,30 +52,82 @@ header {
     color: var(--color-h1);
 }
 
+
 /* ===================  (MEDIUM DEVICES) ======================== */
-@media screen and (max-width: 1590px) {
+@media screen and (max-width: 1300px) {
+    header {
+        height: 70vh;
+    }
+  
+   
+}
+@media screen and (max-width: 1030px) {
     header {
         height: 85vh;
     }
   
    
 }
-
-/* ===================  (SMALL DEVICES) ======================== */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 920px) {
     header {
-        height: 140vh;
+        height: 60vh;
     }
     .header__container > h1 {
         font-size: 2.15rem;
     
     } 
+}   
+@media screen and (max-width: 900px) {
+    header {
+        height: 55vh;
+    }
+    .header__container > h1 {
+        font-size: 2.15rem;
+    
+    } 
+}   
+
+/* ===================  (SMALL DEVICES) ======================== */
+
+@media screen and (max-width: 800px) {
+    header {
+        height: 60vh;
+    }
+    .header__container > h1 {
+        font-size: 2.15rem;
+    
+    } 
+}    
+@media screen and (max-width: 550px) {
+    header {
+        height: 75vh;
+    }
+    .header__container > h1 {
+        font-size: 2.15rem;
+    
+    } 
+    @media screen and (max-width: 400px) {
+        header {
+            height: 85vh;
+        }
+    }    
+    @media screen and (max-width: 380px) {
+        header {
+            height: 105vh;
+        }
+    }    
+    @media screen and (max-width: 300px) {
+        header {
+            height: 115vh;
+        }
+    }    
 
     .header__socials,
     .scroll__down {
         display: none;
 
     } 
+
     
 }
 

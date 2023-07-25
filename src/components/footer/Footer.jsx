@@ -21,7 +21,7 @@ const Footer = () => {
     </div>
 
     <div className="footer__copyright">
-      <small>&copy; 2022-2023 Entwickelt und gestaltet von Sara Rezaei</small>
+      <small>&copy; 2022-2023 Sara Rezaei</small>
     </div>
   </footer>
 </section>  

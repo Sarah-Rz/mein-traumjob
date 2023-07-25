@@ -126,7 +126,6 @@
     .about__cards {
         grid-template-columns:  1fr;
         gap: 1rem;
-        padding-left: 2.75rem;
     }
 
     .about__content {
