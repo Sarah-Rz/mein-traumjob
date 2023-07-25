@@ -11,7 +11,7 @@ const Header = () => {
         {/* <p className="text-sub-1">Mein Motto:</p><p className="text-sub"> Übung macht den Meister und alles ist möglich, wenn man es nur will!</p> */}
        <br />
         <h3 className="text-light">Ich bin Sara </h3>
-        <h2 className="text-primary">Programmiererin</h2>
+        <h2 className="text-primary">Anwendungsentwicklerin</h2>
         <CTA />
       </div>
     </header>
