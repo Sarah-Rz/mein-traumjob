@@ -1,5 +1,5 @@
 header {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     padding-top: 1rem;
     overflow: hidden;
@@ -87,6 +87,7 @@ header {
     } 
 }   
 
+
 /* ===================  (SMALL DEVICES) ======================== */
 
 @media screen and (max-width: 800px) {
@@ -113,12 +114,12 @@ header {
     }    
     @media screen and (max-width: 380px) {
         header {
-            height: 110vh;
+            height: 130vh;
         }
     }    
     @media screen and (max-width: 300px) {
         header {
-            height: 120vh;
+            height: 130vh;
         }
     }    
 

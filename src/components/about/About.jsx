@@ -188,7 +188,9 @@ const About = () => {
           <div className="about-end">
           <p>
           Alles in allem soll ich sagen, dass dieser Job nicht so einfach ist. 
-          Es gibt immer Probleme zu lösen oder Herausforderungen. Allerdings ist es genau das, was mir Spaß macht.          Wenn ich ein Problem lösen kann, bin ich stolz auf mich, dass ich nicht aufgegeben habe. 
+          Es gibt immer Probleme zu lösen oder Herausforderungen. Allerdings ist es genau das, was mir Spaß macht.        
+          Je mehr ich mich mit dem Programmieren beschäftige, desto erstaunlicher finde ich es!!!  
+          Wenn ich ein Problem lösen kann, bin ich stolz auf mich, dass ich nicht aufgegeben habe. 
           Programmieren macht mich zu einem stärkeren Menschen. 
           Das ist erst der Anfang meiner Reise. In diesem Bereich gibt es für mich noch viel zu lernen.
           Ich kann nicht länger auf die Ausbildung in Deutschland warten.
