@@ -56,7 +56,7 @@ header {
 /* ===================  (MEDIUM DEVICES) ======================== */
 @media screen and (max-width: 1300px) {
     header {
-        height: 70vh;
+        height: 90vh;
     }
   
    
@@ -70,7 +70,7 @@ header {
 }
 @media screen and (max-width: 920px) {
     header {
-        height: 60vh;
+        height: 70vh;
     }
     .header__container > h1 {
         font-size: 2.15rem;
@@ -79,7 +79,7 @@ header {
 }   
 @media screen and (max-width: 900px) {
     header {
-        height: 55vh;
+        height: 65vh;
     }
     .header__container > h1 {
         font-size: 2.15rem;
