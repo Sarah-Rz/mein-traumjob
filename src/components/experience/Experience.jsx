@@ -10,8 +10,8 @@ import {DiSass} from "react-icons/di";
 import {SiRedux} from "react-icons/si";
 import {FaGitAlt} from "react-icons/fa";
 import {DiMaterializecss} from "react-icons/di";
-import {IoLogoNodejs} from "react-icons/io";
 import {SiJinja} from "react-icons/si";
+import {FaPython} from "react-icons/fa";
 
 
 
@@ -21,25 +21,14 @@ const Experience = () => {
       <h5>Welche Fähigkeiten ich habe</h5>
       <h2>Meine Erfahrungen</h2>
       <div className="container experience__container">
-        <div className="experience__frontend">
+        <div>
           <h3>Frontend Development</h3>
           <div className="experience__content-frontend">
           <article className="experience__details">
               <SiJavascript className="experience__details-icon" />
-              <h4>JavaScript</h4>
+              <h4>JavaScript ES6</h4>
               <small className="text-light">
-                ES6
-                <br />
-                Regular Expressions
-                <br />
-                Debugging
-                <br />
-                Basic Data Structures
-                <br />
-                Object Oriented Programming
-                <br />
-                Functional Programming
-                <br />
+                Regular Expressions | Debugging | Basic Data Structures | Object Oriented Programming | Functional Programming
               </small>
             </article>
             <article className="experience__details">
@@ -113,6 +102,22 @@ const Experience = () => {
            
           </div>
         </div>
+      </div>
+      <div className = "container experience__container">
+      <div>
+           <h3>Backend Development</h3>
+           <div className="experience__content-backend">
+           <article className="experience__details">
+              <FaPython className="experience__details-icon" />
+              <h4>Python Programming</h4>
+              <small className="text-light">
+              Data Structure | Tuple | Database (DBMS) | SQL |
+              Data Analysis | Data Visualization (DataViz) | Json | Xml | Web Scraping
+              </small>
+            </article>
+
+           </div>
+      </div>
       </div>
     </section>
   );
