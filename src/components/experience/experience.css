@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .experience__container > div {
@@ -78,7 +78,7 @@
 
     .experience__container > div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 2rem 0.5rem;
     }
     .experience__content-frontend {
         display: grid;
