@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mein-traumjob/static/css/main.7d903734.css",
+    "main.css": "/mein-traumjob/static/css/main.c7095115.css",
     "main.js": "/mein-traumjob/static/js/main.90dc63cd.js",
     "static/media/wall.jpg": "/mein-traumjob/static/media/wall.be256f6a0f8a33e020f3.jpg",
     "static/media/portfolio-1.jpg": "/mein-traumjob/static/media/portfolio-1.a6a57c7f5f15c61088d8.jpg",
@@ -25,11 +25,11 @@
     "static/media/m9.png": "/mein-traumjob/static/media/m9.a78d6aac76909f8a837b.png",
     "static/media/m5.png": "/mein-traumjob/static/media/m5.6bd299f8177ebc12a956.png",
     "index.html": "/mein-traumjob/index.html",
-    "main.7d903734.css.map": "/mein-traumjob/static/css/main.7d903734.css.map",
+    "main.c7095115.css.map": "/mein-traumjob/static/css/main.c7095115.css.map",
     "main.90dc63cd.js.map": "/mein-traumjob/static/js/main.90dc63cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d903734.css",
+    "static/css/main.c7095115.css",
     "static/js/main.90dc63cd.js"
   ]
 }
