@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/mein-traumjob/static/css/main.9a466308.css",
-    "main.js": "/mein-traumjob/static/js/main.90dc63cd.js",
+    "main.js": "/mein-traumjob/static/js/main.2624d620.js",
     "static/media/wall.jpg": "/mein-traumjob/static/media/wall.be256f6a0f8a33e020f3.jpg",
-    "static/media/portfolio-1.jpg": "/mein-traumjob/static/media/portfolio-1.a6a57c7f5f15c61088d8.jpg",
+    "static/media/portfolio-3.jpg": "/mein-traumjob/static/media/portfolio-3.a6a57c7f5f15c61088d8.jpg",
     "static/media/portfolio-10.jpg": "/mein-traumjob/static/media/portfolio-10.d3d637d392309d6b166b.jpg",
     "static/media/portfolio-6.jpg": "/mein-traumjob/static/media/portfolio-6.990bdf868b60164abd33.jpg",
     "static/media/portfolio-7.jpg": "/mein-traumjob/static/media/portfolio-7.d28821976116f6bbaf66.jpg",
     "static/media/portfolio-2.jpg": "/mein-traumjob/static/media/portfolio-2.5571c60cdbc922af810e.jpg",
     "static/media/portfolio-9.jpg": "/mein-traumjob/static/media/portfolio-9.ecda36de5c8bdf2b6be7.jpg",
     "static/media/portfolio-4.jpg": "/mein-traumjob/static/media/portfolio-4.5d19257b040b31dd99f6.jpg",
-    "static/media/CV.pdf": "/mein-traumjob/static/media/CV.1a0a0fb3fc7b59942d43.pdf",
+    "static/media/CV.pdf": "/mein-traumjob/static/media/CV.456a269f2644ab5984e0.pdf",
     "static/media/m12.png": "/mein-traumjob/static/media/m12.96bcfa408d9756820db8.png",
+    "static/media/portfolio-1.jpg": "/mein-traumjob/static/media/portfolio-1.8d514be7c77e9ad0a5ab.jpg",
     "static/media/portfolio-8.jpg": "/mein-traumjob/static/media/portfolio-8.7c2ff7c1e96b1db97f63.jpg",
-    "static/media/portfolio-3.jpg": "/mein-traumjob/static/media/portfolio-3.a939915a08d02104bc46.jpg",
+    "static/media/portfolio-12.jpg": "/mein-traumjob/static/media/portfolio-12.a939915a08d02104bc46.jpg",
     "static/media/Me.jpg": "/mein-traumjob/static/media/Me.d6f64f41120fd9fd8b71.jpg",
     "static/media/portfolio-5.jpg": "/mein-traumjob/static/media/portfolio-5.07aaca052e207e760167.jpg",
     "static/media/portfolio-11.jpg": "/mein-traumjob/static/media/portfolio-11.4a5f3e420b8c54885a0e.jpg",
@@ -26,10 +27,10 @@
     "static/media/m5.png": "/mein-traumjob/static/media/m5.6bd299f8177ebc12a956.png",
     "index.html": "/mein-traumjob/index.html",
     "main.9a466308.css.map": "/mein-traumjob/static/css/main.9a466308.css.map",
-    "main.90dc63cd.js.map": "/mein-traumjob/static/js/main.90dc63cd.js.map"
+    "main.2624d620.js.map": "/mein-traumjob/static/js/main.2624d620.js.map"
   },
   "entrypoints": [
     "static/css/main.9a466308.css",
-    "static/js/main.90dc63cd.js"
+    "static/js/main.2624d620.js"
   ]
 }
